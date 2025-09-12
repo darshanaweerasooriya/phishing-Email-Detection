@@ -1,0 +1,15 @@
+From: fakebank@example.com
+To: user@example.com
+Subject: Urgent! Verify your account
+
+<html>
+<head>
+<title>Fake Bank</title>
+</head>
+<body>
+Dear Customer,<br>
+We noticed unusual activity on your bank account.<br>
+Please click the link below to verify your email:<br>
+<a href="http://phishing-link.com">Verify Now</a><br>
+</body>
+</html>
