@@ -26,7 +26,7 @@ def rules_loading(file_path):
             print(f"start: '{r['start']}'  end: '{r['end']}'  phrase: '{r['phrase']}'")
     return rules
 
-
+# loading the email 
 def email_loading(file_path):
     if not os.path.exists(file_path):
         print(f"Email not found: {file_path}")
@@ -40,7 +40,7 @@ def email_loading(file_path):
         print(f"Error reading email : {e}")
         return []
 
-
+# Extract the segement from the email body
 def segment_Extraction(email_lines, start_tag, end_tag):
     inside = False
     segment = []
