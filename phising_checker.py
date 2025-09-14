@@ -73,7 +73,7 @@ if __name__ == "__main__":
         RULE_FILE = "setup.xlsx"
         EMAIL_FILE = "sample.eml"
 
-        # connect to MongoDB (Atlas or Local)
+        # connect to MongoDB 
         MONGO_URI = "mongodb+srv://darshana:Meekiri213@cluster0.bmrclmi.mongodb.net/SmartBuild?retryWrites=true&w=majority&appName=Cluster0"  # e.g., mongodb+srv://user:pass@cluster0.mongodb.net/
         DB_NAME = "SmartBuild"
         COLLECTION_NAME = "phishing_results"
@@ -104,7 +104,7 @@ if __name__ == "__main__":
             print(preview)
             raise SystemExit
 
-        print(f"🔎 Segment extracted starting at line {start_line}. Preview (first 300 chars):")
+        print(f"Segment extracted starting at the line {start_line}. Preview (first 300 characters):")
         print(segment_text[:300].replace("\n", " "))
 
         suspicious = phishingParts_checking(segment_text, rules)
