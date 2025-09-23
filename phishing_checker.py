@@ -74,7 +74,7 @@ if __name__ == "__main__":
         EMAIL_FILE = "sample.eml"
 
         # connect to MongoDB 
-        MONGO_URI = "mongodb+srv://darshana:Meekiri213@cluster0.bmrclmi.mongodb.net/SmartBuild?retryWrites=true&w=majority&appName=Cluster0"  # e.g., mongodb+srv://user:pass@cluster0.mongodb.net/
+        MONGO_URI = "mongodb+srv://darshana:<password>@cluster0.bmrclmi.mongodb.net/SmartBuild?retryWrites=true&w=majority&appName=Cluster0"  # e.g., mongodb+srv://user:pass@cluster0.mongodb.net/
         DB_NAME = "SmartBuild"
         COLLECTION_NAME = "phishing_results"
 
